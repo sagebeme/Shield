@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create-event.html">Create Event</a></li>
+                <li><a href="my-events.html">My Events</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="event-detail">
+        <h2>Concert XYZ</h2>
+        <img src="assets/event1.jpg" alt="Event Image">
+        <p><strong>Type:</strong> Concert</p>
+        <p><strong>Date:</strong> 25th Dec, 2025</p>
+        <p><strong>Location:</strong> New York</p>
+        <p><strong>Description:</strong> This is an exciting concert event featuring top artists. Don't miss it!</p>
+
+        <h3>Register for this Event</h3>
+        <form id="registration-form">
+            <label for="user-name">Your Name:</label>
+            <input type="text" id="user-name" required>
+
+            <label for="user-email">Your Email:</label>
+            <input type="email" id="user-email" required>
+
+            <button type="submit">Register</button>
+        </form>
+        <div id="confirmation-message" style="display: none; margin-top: 20px; color: green;">
+            You have successfully registered for this event!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Event Management System</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

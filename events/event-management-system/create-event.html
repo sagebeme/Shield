@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create-event.html">Create Event</a></li>
+                <li><a href="my-events.html">My Events</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="create-event">
+        <h2>Create a New Event</h2>
+        <form id="create-event-form">
+            <label for="event-name">Event Name:</label>
+            <input type="text" id="event-name" required>
+
+            <label for="event-type">Event Type:</label>
+            <select id="event-type" required>
+                <option value="concert">Concert</option>
+                <option value="corporate">Corporate</option>
+                <option value="sports">Sports</option>
+            </select>
+
+            <label for="event-description">Description:</label>
+            <textarea id="event-description" required></textarea>
+
+            <label for="event-date">Event Date:</label>
+            <input type="date" id="event-date" required>
+
+            <label for="event-location">Location:</label>
+            <input type="text" id="event-location" required>
+
+            <label for="event-image">Event Image:</label>
+            <input type="file" id="event-image">
+
+            <label for="event-pricing">Event Pricing:</label>
+            <select id="event-pricing" required>
+                <option value="free">Free</option>
+                <option value="paid">Paid</option>
+            </select>
+
+            <button type="submit">Create Event</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Event Management System</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

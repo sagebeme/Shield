@@ -21,3 +21,5 @@ function favoriteThings() {
   console.log("My favorite color is " + favoriteColor + ".");
   console.log("I love watching " + favoriteMovie + " and eating " + favoriteFood + "!");
 }
+
+favoriteThings()

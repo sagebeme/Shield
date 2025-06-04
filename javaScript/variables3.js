@@ -31,3 +31,5 @@ function simpleMath() {
   console.log("Product: " + (num1 * num2));
   console.log("Quotient: " + (num1 / num2));
 }
+
+simpleMath();
